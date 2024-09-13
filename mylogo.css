@@ -1,0 +1,130 @@
+
+.fixed-logo {
+    position: sticky;
+}
+/* ONLY CHANGE HERE vvvv for LOGO */
+:root{
+    --widthOfLogo: 5rem
+}
+/* ONLY CHANGE HERE ^^^^^ */
+
+
+
+/* /* for absolute type lengths such as px, rem, em... NOT for %  vvvvvvvvvvvvvvvvvvvvvvv */
+
+
+
+
+.logo {
+    position: fixed;
+    aspect-ratio: .67;
+    width: var(--widthOfLogo);
+    display: flex;
+    background-color: #7a7a7a;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+
+}
+
+.zero {
+    position: absolute;
+    
+    font-family: consolas;
+    font-size: calc(1.8 * var(--widthOfLogo));
+    z-index: 11;
+    color: #311c92;
+    margin: 0;
+    line-height: 68%;
+}
+
+.f {
+
+    position: absolute;
+    width: 100%;
+    z-index: 12;
+    font-size: calc(.48 * var(--widthOfLogo));
+    top: 30%;
+    left: 30%;
+    font-family: Segoe Script;
+    color: #1db9fd;
+    line-height: 50%;
+    aspect-ratio: .27;
+}
+
+.z {
+
+    position: absolute;
+    width: 100%;
+    z-index: 12;
+    font-size: calc(.72 * var(--widthOfLogo));
+    font-family: Segoe Print;
+    top: 50%;
+    left: 35%;
+    color: #32c28e;
+    line-height: 50%;
+    aspect-ratio: .4;
+} 
+
+/* 
+for absolute type lengths such as px, rem, em... NOT for % ^^^^^^^^^^^^^^^^^
+*/
+
+
+
+/* for % ONLY vvvvvvvvvvvvvvvv */
+
+
+/* .logo {
+    position: fixed;
+    aspect-ratio: .67;
+    width: var(--widthOfLogo);
+    display: flex;
+    background-color: #7a7a7a;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+
+}
+
+.zero {
+    position: fixed;
+    font-family: consolas;
+    z-index: 1;
+    color: #311c92;
+    margin: 0;
+    line-height: 68%;
+    font-size:  calc(100*var(--widthOfLogo));
+}
+
+.f {
+
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    font-size: calc(25 * var(--widthOfLogo));
+    top: 29%;
+    left: 27%;
+    font-family: Segoe Script;
+    color: #1db9fd;
+    line-height: 50%;
+    aspect-ratio: .27;
+}
+
+.z {
+
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    font-size: calc(40 * var(--widthOfLogo));
+    font-family: Segoe Print;
+    top: 50%;
+    left: 35%;
+    color: #32c28e;
+    line-height: 50%;
+    aspect-ratio: .4;
+}  */
+
+/* for % ONLY ^^^^^^^^^^^^^^^^^^ */
